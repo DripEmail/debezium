@@ -247,77 +247,78 @@ public class PostgresChangeRecordEmitter extends RelationalChangeRecordEmitter {
     }
 
     private boolean schemaChanged(List<ReplicationMessage.Column> columns, Table table, boolean metadataInMessage) {
-        int tableColumnCount = table.columns().size();
-        int replicationColumnCount = columns.size();
+        return(false);
+        // int tableColumnCount = table.columns().size();
+        // int replicationColumnCount = columns.size();
 
-        boolean msgHasMissingColumns = tableColumnCount > replicationColumnCount;
+        // boolean msgHasMissingColumns = tableColumnCount > replicationColumnCount;
 
-        if (msgHasMissingColumns && connectorConfig.skipRefreshSchemaOnMissingToastableData()) {
-            // if we are ignoring missing toastable data for the purpose of schema sync, we need to modify the
-            // hasMissingColumns boolean to account for this. If there are untoasted columns missing from the replication
-            // message, we'll still have missing columns and thus require a schema refresh. However, we can /possibly/
-            // avoid the refresh if there are only toastable columns missing from the message.
-            msgHasMissingColumns = hasMissingUntoastedColumns(table, columns);
-        }
+        // if (msgHasMissingColumns && connectorConfig.skipRefreshSchemaOnMissingToastableData()) {
+        //     // if we are ignoring missing toastable data for the purpose of schema sync, we need to modify the
+        //     // hasMissingColumns boolean to account for this. If there are untoasted columns missing from the replication
+        //     // message, we'll still have missing columns and thus require a schema refresh. However, we can /possibly/
+        //     // avoid the refresh if there are only toastable columns missing from the message.
+        //     msgHasMissingColumns = hasMissingUntoastedColumns(table, columns);
+        // }
 
-        boolean msgHasAdditionalColumns = tableColumnCount < replicationColumnCount;
+        // boolean msgHasAdditionalColumns = tableColumnCount < replicationColumnCount;
 
-        if (msgHasMissingColumns || msgHasAdditionalColumns) {
-            // the table metadata has less or more columns than the event, which means the table structure has changed,
-            // so we need to trigger a refresh...
-            logger.info("Different column count {} present in the server message as schema in memory contains {}; refreshing table schema",
-                    replicationColumnCount,
-                    tableColumnCount);
-            return true;
-        }
+        // if (msgHasMissingColumns || msgHasAdditionalColumns) {
+        //     // the table metadata has less or more columns than the event, which means the table structure has changed,
+        //     // so we need to trigger a refresh...
+        //     logger.info("Different column count {} present in the server message as schema in memory contains {}; refreshing table schema",
+        //             replicationColumnCount,
+        //             tableColumnCount);
+        //     return true;
+        // }
 
-        // go through the list of columns from the message to figure out if any of them are new or have changed their type based
-        // on what we have in the table metadata....
-        return columns.stream().filter(message -> {
-            String columnName = message.getName();
-            Column column = table.columnWithName(columnName);
-            if (column == null) {
-                logger.info("found new column '{}' present in the server message which is not part of the table metadata; refreshing table schema", columnName);
-                return true;
-            }
-            else {
-                final int localType = column.nativeType();
-                final int incomingType = message.getType().getOid();
-                if (localType != incomingType) {
-                    final int incomingRootType = message.getType().getRootType().getOid();
-                    if (localType != incomingRootType) {
-                        logger.info("detected new type for column '{}', old type was {} ({}), new type is {} ({}); refreshing table schema", columnName, localType,
-                                column.typeName(),
-                                incomingType, message.getType().getName());
-                        return true;
-                    }
-                }
-                if (metadataInMessage) {
-                    final int localLength = column.length();
-                    final int incomingLength = message.getTypeMetadata().getLength();
-                    if (localLength != incomingLength) {
-                        logger.info("detected new length for column '{}', old length was {}, new length is {}; refreshing table schema", columnName, localLength,
-                                incomingLength);
-                        return true;
-                    }
-                    final int localScale = column.scale().get();
-                    final int incomingScale = message.getTypeMetadata().getScale();
-                    if (localScale != incomingScale) {
-                        logger.info("detected new scale for column '{}', old scale was {}, new scale is {}; refreshing table schema", columnName, localScale,
-                                incomingScale);
-                        return true;
-                    }
-                    final boolean localOptional = column.isOptional();
-                    final boolean incomingOptional = message.isOptional();
-                    if (localOptional != incomingOptional) {
-                        logger.info("detected new optional status for column '{}', old value was {}, new value is {}; refreshing table schema", columnName, localOptional,
-                                incomingOptional);
-                        return true;
-                    }
-                }
-            }
-            return false;
-        }).findFirst().isPresent();
+        // // go through the list of columns from the message to figure out if any of them are new or have changed their type based
+        // // on what we have in the table metadata....
+        // return columns.stream().filter(message -> {
+        //     String columnName = message.getName();
+        //     Column column = table.columnWithName(columnName);
+        //     if (column == null) {
+        //         logger.info("found new column '{}' present in the server message which is not part of the table metadata; refreshing table schema", columnName);
+        //         return true;
+        //     }
+        //     else {
+        //         final int localType = column.nativeType();
+        //         final int incomingType = message.getType().getOid();
+        //         if (localType != incomingType) {
+        //             final int incomingRootType = message.getType().getRootType().getOid();
+        //             if (localType != incomingRootType) {
+        //                 logger.info("detected new type for column '{}', old type was {} ({}), new type is {} ({}); refreshing table schema", columnName, localType,
+        //                         column.typeName(),
+        //                         incomingType, message.getType().getName());
+        //                 return true;
+        //             }
+        //         }
+        //         if (metadataInMessage) {
+        //             final int localLength = column.length();
+        //             final int incomingLength = message.getTypeMetadata().getLength();
+        //             if (localLength != incomingLength) {
+        //                 logger.info("detected new length for column '{}', old length was {}, new length is {}; refreshing table schema", columnName, localLength,
+        //                         incomingLength);
+        //                 return true;
+        //             }
+        //             final int localScale = column.scale().get();
+        //             final int incomingScale = message.getTypeMetadata().getScale();
+        //             if (localScale != incomingScale) {
+        //                 logger.info("detected new scale for column '{}', old scale was {}, new scale is {}; refreshing table schema", columnName, localScale,
+        //                         incomingScale);
+        //                 return true;
+        //             }
+        //             final boolean localOptional = column.isOptional();
+        //             final boolean incomingOptional = message.isOptional();
+        //             if (localOptional != incomingOptional) {
+        //                 logger.info("detected new optional status for column '{}', old value was {}, new value is {}; refreshing table schema", columnName, localOptional,
+        //                         incomingOptional);
+        //                 return true;
+        //             }
+        //         }
+        //     }
+        //     return false;
+        // }).findFirst().isPresent();
     }
 
     private boolean hasMissingUntoastedColumns(Table table, List<ReplicationMessage.Column> columns) {
