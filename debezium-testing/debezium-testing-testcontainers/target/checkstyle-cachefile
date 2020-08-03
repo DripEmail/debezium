@@ -1,0 +1,9 @@
+#Mon Aug 03 12:05:34 CDT 2020
+module-resource*?\:/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/target/checkstyle-suppressions.xml=A0A40AB0F08E5A4AA8E4234BF2AC8FA8FCD36EC1
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/main/java/io/debezium/testing/testcontainers/ConnectorConfiguration.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/test/java/io/debezium/testing/testcontainers/DebeziumContainerTest.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/test/java/io/debezium/testing/testcontainers/ConnectorConfigurationTest.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/main/java/io/debezium/testing/testcontainers/DebeziumContainer.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/main/java/io/debezium/testing/testcontainers/Connector.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/main/java/io/debezium/testing/testcontainers/ConnectorResolver.java=1596472916000
+configuration*?=14EDE952266B7D0D5FA6B606EF627D117A3B4738

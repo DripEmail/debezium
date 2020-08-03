@@ -1,0 +1,13 @@
+META-INF/CompilerHints
+io/debezium/performance/connector/mysql/parser/generated/MySqlDdlParserPerf_ParserState_jmhType_B3.class
+io/debezium/performance/connector/mysql/parser/generated/MySqlDdlParserPerf_jmhType.class
+io/debezium/performance/connector/mysql/parser/generated/MySqlDdlParserPerf_ParserState_jmhType_B2.class
+io/debezium/performance/connector/mysql/parser/generated/MySqlDdlParserPerf_antlr_jmhTest.class
+io/debezium/performance/connector/mysql/parser/generated/MySqlDdlParserPerf_jmhType_B2.class
+io/debezium/performance/connector/mysql/parser/MySqlDdlParserPerf.class
+io/debezium/performance/connector/mysql/parser/generated/MySqlDdlParserPerf_jmhType_B3.class
+io/debezium/performance/connector/mysql/parser/generated/MySqlDdlParserPerf_ParserState_jmhType_B1.class
+META-INF/BenchmarkList
+io/debezium/performance/connector/mysql/parser/generated/MySqlDdlParserPerf_jmhType_B1.class
+io/debezium/performance/connector/mysql/parser/MySqlDdlParserPerf$ParserState.class
+io/debezium/performance/connector/mysql/parser/generated/MySqlDdlParserPerf_ParserState_jmhType.class

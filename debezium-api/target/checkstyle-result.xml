@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/common/annotation/Incubating.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/DebeziumException.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/ChangeEventFormat.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/DebeziumEngine.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/spi/OffsetCommitPolicy.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/StopEngineException.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/spi/converter/ConvertedField.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/spi/converter/CustomConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/spi/converter/RelationalColumn.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/test/java/io/debezium/engine/OffsetCommitPolicyTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-api/src/test/java/io/debezium/spi/ValueConverterTest.java">
+</file>
+</checkstyle>

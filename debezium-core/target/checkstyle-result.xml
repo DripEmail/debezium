@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/annotation/GuardedBy.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/annotation/Immutable.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/annotation/NotThreadSafe.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/annotation/ReadOnly.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/annotation/ThreadSafe.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/annotation/VisibleForTesting.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/config/CommonConnectorConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/config/Configuration.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/config/ConfigurationDefaults.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/config/EnumeratedValue.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/config/Field.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/config/Instantiator.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/connector/AbstractSourceInfo.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/connector/AbstractSourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/connector/base/ChangeEventQueue.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/connector/base/ChangeEventQueueMetrics.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/connector/common/BaseSourceInfo.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/connector/common/BaseSourceTask.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/connector/common/CdcSourceTaskContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/connector/LegacyV1AbstractSourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/connector/SnapshotRecord.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/connector/SourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/converters/ByteBufferConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/converters/CloudEventsConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/converters/CloudEventsConverterConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/converters/CloudEventsMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/converters/RecordParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/converters/SerializerType.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/Count.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/CRDT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/DeltaCount.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/DeltaCounter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/GCount.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/GCounter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/PNCount.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/PNCounter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/StateBasedGCounter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/StateBasedPNCounter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/crdt/StateBasedPNDeltaCounter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/Bits.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/Enum.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/EnumSet.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/Envelope.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/geometry/Geography.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/geometry/Geometry.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/geometry/Point.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/Json.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/SchemaUtil.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/SpecialValueDecimal.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/Uuid.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/VariableScaleDecimal.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/data/Xml.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/Array.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/ArrayReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/ArraySerdes.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/ArrayWriter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/BasicArray.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/BasicDocument.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/BasicEntry.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/BasicField.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/BinaryValue.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/ComparableValue.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/ConvertingValue.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/Document.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/DocumentReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/DocumentSerdes.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/DocumentWriter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/JacksonReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/JacksonWriter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/NullValue.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/Path.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/Paths.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/document/Value.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/function/BlockingConsumer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/function/BooleanConsumer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/function/BufferedBlockingConsumer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/function/Callable.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/function/Predicates.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/heartbeat/DatabaseHeartbeatImpl.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/heartbeat/Heartbeat.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/heartbeat/HeartbeatImpl.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/jdbc/JdbcConfiguration.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/jdbc/JdbcConnection.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/jdbc/JdbcConnectionException.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/jdbc/JdbcValueConverters.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/jdbc/ResultReceiver.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/jdbc/TemporalPrecisionMode.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/jdbc/ValueConversionCallback.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/metrics/Metrics.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/AbstractChangeRecordEmitter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/ChangeEventSourceCoordinator.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/DataChangeEvent.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/ErrorHandler.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/EventDispatcher.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/metrics/ChangeEventSourceMetricsMXBean.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/metrics/PipelineMetrics.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/metrics/SnapshotChangeEventSourceMetrics.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/metrics/SnapshotChangeEventSourceMetricsMXBean.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/metrics/StreamingChangeEventSourceMetrics.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/metrics/StreamingChangeEventSourceMetricsMXBean.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/source/AbstractSnapshotChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/source/spi/ChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/source/spi/ChangeEventSourceFactory.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/source/spi/DataChangeEventListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/source/spi/EventFormatter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/source/spi/EventMetadataProvider.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/source/spi/SnapshotChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/source/spi/SnapshotProgressListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/source/spi/StreamingChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/spi/ChangeEventCreator.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/spi/ChangeRecordEmitter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/spi/OffsetContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/spi/SchemaChangeEventEmitter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/spi/SnapshotResult.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/txmetadata/TransactionContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/txmetadata/TransactionMonitor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/pipeline/txmetadata/TransactionStatus.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/Column.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ColumnEditor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ColumnEditorImpl.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ColumnId.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ColumnImpl.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/CustomConverterRegistry.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/AbstractDdlParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/DataType.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/DataTypeBuilder.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/DataTypeGrammarParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/DataTypeParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/DdlChanges.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/DdlParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/DdlParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/DdlParserSql2003.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/DdlTokenizer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ddl/LegacyDdlParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/HistorizedRelationalDatabaseConnectorConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/HistorizedRelationalDatabaseSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/AbstractDatabaseHistory.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/DatabaseHistory.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/DatabaseHistoryException.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/DatabaseHistoryListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/DatabaseHistoryMetrics.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/DatabaseHistoryMXBean.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/FileDatabaseHistory.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/HistoryRecord.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/HistoryRecordComparator.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/KafkaDatabaseHistory.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/MemoryDatabaseHistory.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/history/TableChanges.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/Key.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/mapping/ColumnMapper.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/mapping/ColumnMappers.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/mapping/MaskStrings.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/mapping/PropagateSourceTypeToSchemaParameter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/mapping/TruncateStrings.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/NoOpTableEditorImpl.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/RelationalChangeRecordEmitter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/RelationalDatabaseConnectorConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/RelationalDatabaseSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/RelationalSnapshotChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/RelationalTableFilters.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/Selectors.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/SnapshotChangeRecordEmitter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/SystemVariables.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/Table.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/TableEditor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/TableEditorImpl.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/TableId.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/TableIdParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/TableImpl.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/Tables.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/TableSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/TableSchemaBuilder.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ValueConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/relational/ValueConverterProvider.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/schema/DatabaseSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/schema/DataCollectionFilters.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/schema/DataCollectionId.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/schema/DataCollectionSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/schema/FieldNameSelector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/schema/HistorizedDatabaseSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/schema/SchemaChangeEvent.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/schema/TopicSelector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/serde/DebeziumSerdes.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/serde/json/JsonSerde.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/serde/json/JsonSerdeConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/text/MultipleParsingExceptions.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/text/ParsingException.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/text/Position.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/text/TokenStream.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/text/XmlCharacters.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/Conversions.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/Date.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/Interval.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/MicroDuration.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/MicroTime.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/MicroTimestamp.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/NanoDuration.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/NanoTime.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/NanoTimestamp.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/Temporals.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/Time.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/Timestamp.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/Year.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/ZonedTime.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/time/ZonedTimestamp.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/transforms/ByLogicalTableRouter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/transforms/ExtractNewRecordState.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/transforms/ExtractNewRecordStateConfigDefinition.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/transforms/outbox/EventRouter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/transforms/outbox/EventRouterConfigDefinition.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/transforms/SmtManager.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/transforms/UnwrapFromEnvelope.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/BoundedConcurrentHashMap.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/Clock.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/Collect.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/DelayStrategy.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/ElapsedTimeStrategy.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/FunctionalReadWriteLock.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/HashCode.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/HexConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/IoUtil.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/Iterators.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/Joiner.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/LoggingContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/MathOps.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/Metronome.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/NumberConversions.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/SchemaNameAdjuster.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/Sequences.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/Stopwatch.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/Strings.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/Threads.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/Throwables.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/main/java/io/debezium/util/VariableLatch.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/config/ConfigurationTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/converters/ByteBufferConverterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/converters/CloudEventsConverterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/data/EnvelopeTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/data/KeyValueStore.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/data/SchemaAndValueField.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/data/SchemaChangeHistory.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/data/SchemaUtilTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/data/SourceRecordAssert.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/data/SourceRecordStats.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/data/VerifyRecord.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/doc/FixFor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/document/ArraySerdesTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/document/BinaryValueTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/document/DocumentSerdesTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/document/DocumentTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/document/JacksonArrayReadingAndWritingTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/document/JacksonReaderTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/document/JacksonWriterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/document/PathsTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/function/BufferedBlockingConsumerTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/function/PredicatesTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/junit/AnnotationBasedTestRule.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/junit/ConditionalFail.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/junit/logging/LogInterceptor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/junit/ShouldFailWhen.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/junit/SkipLongRunning.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/junit/SkipOnOS.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/junit/SkipTestRule.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/junit/SkipWhenKafkaVersion.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/junit/TestLogger.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/kafka/KafkaCluster.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/kafka/KafkaClusterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/kafka/KafkaServer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/kafka/ZookeeperServer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/kafka/ZookeeperServerTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/ColumnEditorTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/ddl/DataTypeGrammarParserTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/ddl/DataTypeParserTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/ddl/DdlChangesTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/ddl/DdlParserSql2003Test.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/ddl/SimpleDdlParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/history/AbstractDatabaseHistoryTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/history/FileDatabaseHistoryTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/history/HistoryRecordTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/history/KafkaDatabaseHistoryTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/history/MemoryDatabaseHistoryTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/mapping/ColumnMappersTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/mapping/MaskStringsTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/mapping/PropagateSourceTypeToSchemaParameterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/mapping/TruncateStringsTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/SelectorsTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/TableEditorTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/TableIdParserTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/TableSchemaBuilderTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/relational/TableTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/serde/SerdeTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/text/PositionTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/text/TokenStreamTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/text/XmlCharactersTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/time/ConversionsTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/time/NanoDurationTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/time/TemporalsTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/transforms/ByLogicalTableRouterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/transforms/ExtractNewRecordStateTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/transforms/outbox/EventRouterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/util/CollectTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/util/ElapsedTimeStrategyTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/util/HashCodeTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/util/HexConverterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/util/MockClock.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/util/SchemaNameAdjusterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/util/StringsTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/util/Testing.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-core/src/test/java/io/debezium/util/TestingTest.java">
+</file>
+</checkstyle>

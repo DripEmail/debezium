@@ -1,0 +1,12 @@
+#Mon Aug 03 12:05:28 CDT 2020
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/target/generated-sources/annotations/io/debezium/outbox/quarkus/internal/DebeziumOutboxRecorder$$accessor.java=1596474327000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/ExportedEvent.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/DebeziumOutboxRecorder.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/AdditionalJaxbMappingProducerImpl.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/JsonNodeAttributeConverter.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/OutboxConstants.java=1596472916000
+module-resource*?\:/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/target/checkstyle-suppressions.xml=A0A40AB0F08E5A4AA8E4234BF2AC8FA8FCD36EC1
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/EventDispatcher.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/target/generated-sources/annotations/io/debezium/outbox/quarkus/internal/DebeziumOutboxRuntimeConfig$$accessor.java=1596474327000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/DebeziumOutboxRuntimeConfig.java=1596472916000
+configuration*?=39D5CCB27C2A8926FAA8A33743DBD7C336AC0563

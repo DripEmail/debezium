@@ -1,0 +1,16 @@
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/AbstractSqlServerDatatypesTest.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/util/TestHelper.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SQLServerNumericColumnIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SnapshotIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/DatatypesFromSnapshotIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SourceInfoTest.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/TablesWithoutPrimaryKeyIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/EventProcessingFailureHandlingIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SqlServerChangeTableSetIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SqlServerConnectorIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SqlServerConnectionIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SnapshotWithSelectOverridesIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SpecialCharsInNamesIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/TransactionMetadataIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/LegacyV1SourceInfoTest.java
+/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/CaseSensitivenessIT.java

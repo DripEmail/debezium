@@ -1,0 +1,4 @@
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/src/main/java/io/debezium/outbox/quarkus/deployment/OutboxProcessor.java
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/src/main/java/io/debezium/outbox/quarkus/deployment/DebeziumOutboxConfig.java
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/src/main/java/io/debezium/outbox/quarkus/deployment/OutboxEventEntityBuildItem.java
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/src/main/java/io/debezium/outbox/quarkus/deployment/OutboxEventHbmWriter.java

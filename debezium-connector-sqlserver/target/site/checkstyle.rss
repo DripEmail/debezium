@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>Debezium Connector for MS SQL Server - Checkstyle report</title>
+    <link>https://debezium.io/debezium-connector-sqlserver</link>
+    <description>Debezium Connector for MS SQL Server - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2020 JBoss by Red Hat</copyright>
+    <item>
+      <title>File: 39,
+             Errors: 0,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>https://debezium.io/debezium-connector-sqlserver/checkstyle.html</link>
+      <description>
+        <p>Click <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.ChangeTable.java">io/debezium/connector/sqlserver/ChangeTable.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerSourceInfoStructMaker.java">io/debezium/connector/sqlserver/SqlServerSourceInfoStructMaker.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SourceInfo.java">io/debezium/connector/sqlserver/SourceInfo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.TransactionMetadataIT.java">io/debezium/connector/sqlserver/TransactionMetadataIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.util.TestHelper.java">io/debezium/connector/sqlserver/util/TestHelper.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerValueConverters.java">io/debezium/connector/sqlserver/SqlServerValueConverters.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.TxLogPosition.java">io/debezium/connector/sqlserver/TxLogPosition.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SnapshotWithSelectOverridesIT.java">io/debezium/connector/sqlserver/SnapshotWithSelectOverridesIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SpecialCharsInNamesIT.java">io/debezium/connector/sqlserver/SpecialCharsInNamesIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.TablesWithoutPrimaryKeyIT.java">io/debezium/connector/sqlserver/TablesWithoutPrimaryKeyIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.DatatypesFromSnapshotIT.java">io/debezium/connector/sqlserver/DatatypesFromSnapshotIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.LegacyV1SourceInfoTest.java">io/debezium/connector/sqlserver/LegacyV1SourceInfoTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.CaseSensitivenessIT.java">io/debezium/connector/sqlserver/CaseSensitivenessIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerChangeTableSetIT.java">io/debezium/connector/sqlserver/SqlServerChangeTableSetIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerConnector.java">io/debezium/connector/sqlserver/SqlServerConnector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerChangeEventSourceFactory.java">io/debezium/connector/sqlserver/SqlServerChangeEventSourceFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerTopicSelector.java">io/debezium/connector/sqlserver/SqlServerTopicSelector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.EventProcessingFailureHandlingIT.java">io/debezium/connector/sqlserver/EventProcessingFailureHandlingIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerConnectorConfig.java">io/debezium/connector/sqlserver/SqlServerConnectorConfig.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.LegacyV1SqlServerSourceInfoStructMaker.java">io/debezium/connector/sqlserver/LegacyV1SqlServerSourceInfoStructMaker.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerSnapshotChangeEventSource.java">io/debezium/connector/sqlserver/SqlServerSnapshotChangeEventSource.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.Nullable.java">io/debezium/connector/sqlserver/Nullable.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SourceInfoTest.java">io/debezium/connector/sqlserver/SourceInfoTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerConnectionIT.java">io/debezium/connector/sqlserver/SqlServerConnectionIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.Module.java">io/debezium/connector/sqlserver/Module.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerEventMetadataProvider.java">io/debezium/connector/sqlserver/SqlServerEventMetadataProvider.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SQLServerNumericColumnIT.java">io/debezium/connector/sqlserver/SQLServerNumericColumnIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerOffsetContext.java">io/debezium/connector/sqlserver/SqlServerOffsetContext.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.Lsn.java">io/debezium/connector/sqlserver/Lsn.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerDatabaseSchema.java">io/debezium/connector/sqlserver/SqlServerDatabaseSchema.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.AbstractSqlServerDatatypesTest.java">io/debezium/connector/sqlserver/AbstractSqlServerDatatypesTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerSchemaChangeEventEmitter.java">io/debezium/connector/sqlserver/SqlServerSchemaChangeEventEmitter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerConnectorIT.java">io/debezium/connector/sqlserver/SqlServerConnectorIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerChangeRecordEmitter.java">io/debezium/connector/sqlserver/SqlServerChangeRecordEmitter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SnapshotIT.java">io/debezium/connector/sqlserver/SnapshotIT.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerStreamingChangeEventSource.java">io/debezium/connector/sqlserver/SqlServerStreamingChangeEventSource.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerConnectorTask.java">io/debezium/connector/sqlserver/SqlServerConnectorTask.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerConnection.java">io/debezium/connector/sqlserver/SqlServerConnection.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://debezium.io/debezium-connector-sqlserver/checkstyle.html#io.debezium.connector.sqlserver.SqlServerTaskContext.java">io/debezium/connector/sqlserver/SqlServerTaskContext.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

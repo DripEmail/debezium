@@ -1,0 +1,8 @@
+#Mon Aug 03 12:05:34 CDT 2020
+module-resource*?\:/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/target/checkstyle-suppressions.xml=A0A40AB0F08E5A4AA8E4234BF2AC8FA8FCD36EC1
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/src/main/resources/application.properties=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/OutboxIT.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/src/main/java/io/debezium/outbox/quarkus/it/TestEntity.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/OutboxTest.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/DatabaseTestResource.java=1596472916000
+configuration*?=A47CC000A6373457413A167060BA71BB2F96EF25

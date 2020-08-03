@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/DatabaseController.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/DatabaseDeployer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/MySqlDeployer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/PostgreSqlDeployer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/HttpUtils.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/ConnectorConfigBuilder.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/KafkaConnectController.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/KafkaController.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/KafkaDeployer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/OperatorController.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/OpenShiftUtils.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/YAML.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/ConnectorTestBase.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/mysql/MySqlConnectorIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/postgresql/PostgreSqlConnectorIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/resources/ConfigProperties.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/resources/ConnectorFactories.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/TestUtils.java">
+</file>
+</checkstyle>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-microbenchmark/src/main/java/io/debezium/performance/connector/mysql/parser/MySqlDdlParserPerf.java">
+</file>
+</checkstyle>

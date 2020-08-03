@@ -1,0 +1,14 @@
+#Mon Aug 03 12:03:41 CDT 2020
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/test/java/io/debezium/engine/OffsetCommitPolicyTest.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/DebeziumException.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/spi/OffsetCommitPolicy.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/test/java/io/debezium/spi/ValueConverterTest.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/DebeziumEngine.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/spi/converter/RelationalColumn.java=1596472916000
+module-resource*?\:/Users/stephenwebber/code/drip/debezium/debezium-api/target/checkstyle-suppressions.xml=A0A40AB0F08E5A4AA8E4234BF2AC8FA8FCD36EC1
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/spi/converter/CustomConverter.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/ChangeEventFormat.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/spi/converter/ConvertedField.java=1596472916000
+configuration*?=714DDE2B6BB98E5E03EC25277895CDF4A988ECDB
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/StopEngineException.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/common/annotation/Incubating.java=1596472916000

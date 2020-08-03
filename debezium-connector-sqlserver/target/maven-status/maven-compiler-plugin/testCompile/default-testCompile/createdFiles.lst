@@ -1,0 +1,16 @@
+io/debezium/connector/sqlserver/util/TestHelper.class
+io/debezium/connector/sqlserver/SourceInfoTest.class
+io/debezium/connector/sqlserver/SqlServerConnectorIT.class
+io/debezium/connector/sqlserver/SqlServerConnectionIT.class
+io/debezium/connector/sqlserver/SQLServerNumericColumnIT.class
+io/debezium/connector/sqlserver/TransactionMetadataIT.class
+io/debezium/connector/sqlserver/AbstractSqlServerDatatypesTest.class
+io/debezium/connector/sqlserver/SpecialCharsInNamesIT.class
+io/debezium/connector/sqlserver/SqlServerChangeTableSetIT.class
+io/debezium/connector/sqlserver/CaseSensitivenessIT.class
+io/debezium/connector/sqlserver/LegacyV1SourceInfoTest.class
+io/debezium/connector/sqlserver/EventProcessingFailureHandlingIT.class
+io/debezium/connector/sqlserver/TablesWithoutPrimaryKeyIT.class
+io/debezium/connector/sqlserver/SnapshotIT.class
+io/debezium/connector/sqlserver/DatatypesFromSnapshotIT.class
+io/debezium/connector/sqlserver/SnapshotWithSelectOverridesIT.class

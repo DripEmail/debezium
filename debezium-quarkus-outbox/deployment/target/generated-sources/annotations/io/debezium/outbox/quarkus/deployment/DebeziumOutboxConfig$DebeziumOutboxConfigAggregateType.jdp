@@ -1,0 +1,5 @@
+#
+#Mon Aug 03 12:05:28 CDT 2020
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.DebeziumOutboxConfigAggregateType.name=The column name.
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.DebeziumOutboxConfigAggregateType.converter=The column's attribute converter fully qualified class name.\n@see javax.persistence.AttributeConverter
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.DebeziumOutboxConfigAggregateType.columnDefinition=The column definition.

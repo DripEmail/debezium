@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/src/main/java/io/debezium/outbox/quarkus/it/TestEntity.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/DatabaseTestResource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/OutboxIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/OutboxTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/integration-tests/src/main/resources/application.properties">
+</file>
+</checkstyle>

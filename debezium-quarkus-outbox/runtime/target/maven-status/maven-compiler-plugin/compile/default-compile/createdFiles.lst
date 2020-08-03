@@ -1,0 +1,11 @@
+io/debezium/outbox/quarkus/internal/DebeziumOutboxRuntimeConfig.class
+io/debezium/outbox/quarkus/internal/EventDispatcher.class
+io/debezium/outbox/quarkus/ExportedEvent.class
+io/debezium/outbox/quarkus/internal/DebeziumOutboxRuntimeConfig$$accessor.class
+io/debezium/outbox/quarkus/internal/JsonNodeAttributeConverter.class
+io/debezium/outbox/quarkus/internal/OutboxConstants.class
+io/debezium/outbox/quarkus/internal/AdditionalJaxbMappingProducerImpl.class
+META-INF/quarkus-javadoc.properties
+META-INF/quarkus-config-roots.list
+io/debezium/outbox/quarkus/internal/DebeziumOutboxRecorder$$accessor.class
+io/debezium/outbox/quarkus/internal/DebeziumOutboxRecorder.class

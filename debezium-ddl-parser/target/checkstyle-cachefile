@@ -1,0 +1,17 @@
+#Mon Aug 03 12:04:56 CDT 2020
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlParserBaseListener.java=1596474240000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlLexer.java=1596474235000
+module-resource*?\:/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/checkstyle-suppressions.xml=A0A40AB0F08E5A4AA8E4234BF2AC8FA8FCD36EC1
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlParserBaseListener.java=1596474239000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlParserListener.java=1596474239000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/ProxyParseTreeListenerUtil.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/AntlrDdlParser.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/ParsingErrorListener.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/AntlrDdlParserListener.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlParser.java=1596474240000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlLexer.java=1596474240000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/CaseChangingCharStream.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlParser.java=1596474239000
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlParserListener.java=1596474240000
+configuration*?=B341E69058E91CCDCE9433FD56D76793A6C00C8E
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/DataTypeResolver.java=1596472916000

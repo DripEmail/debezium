@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/ChangeTable.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/LegacyV1SqlServerSourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/Lsn.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/Module.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/Nullable.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SourceInfo.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerChangeEventSourceFactory.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerChangeRecordEmitter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerConnection.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerConnector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerConnectorConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerConnectorTask.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerDatabaseSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerEventMetadataProvider.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerOffsetContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerSchemaChangeEventEmitter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerSnapshotChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerSourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerStreamingChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerTaskContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerTopicSelector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/SqlServerValueConverters.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/main/java/io/debezium/connector/sqlserver/TxLogPosition.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/AbstractSqlServerDatatypesTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/CaseSensitivenessIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/DatatypesFromSnapshotIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/EventProcessingFailureHandlingIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/LegacyV1SourceInfoTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SnapshotIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SnapshotWithSelectOverridesIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SourceInfoTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SpecialCharsInNamesIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SqlServerChangeTableSetIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SqlServerConnectionIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SqlServerConnectorIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/SQLServerNumericColumnIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/TablesWithoutPrimaryKeyIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/TransactionMetadataIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-sqlserver/src/test/java/io/debezium/connector/sqlserver/util/TestHelper.java">
+</file>
+</checkstyle>

@@ -1,0 +1,3 @@
+#
+#Mon Aug 03 12:05:27 CDT 2020
+io.debezium.outbox.quarkus.internal.DebeziumOutboxRuntimeConfig.removeAfterInsert=Remove outbox entity after being inserted.  Default is {@code true}.

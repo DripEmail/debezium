@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/ChangeEvent.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/AbstractColumnValue.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/AbstractMessageDecoder.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/AbstractReplicationMessageColumn.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/MessageDecoder.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/MessageDecoderConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/pgoutput/ColumnMetaData.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/pgoutput/PgOutputColumnValue.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/pgoutput/PgOutputMessageDecoder.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/pgoutput/PgOutputRelationMetaData.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/pgoutput/PgOutputReplicationMessage.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/pgproto/PgProtoColumnValue.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/pgproto/PgProtoMessageDecoder.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/pgproto/PgProtoReplicationMessage.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/PostgresConnection.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/PostgresReplicationConnection.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/ReplicationConnection.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/ReplicationMessage.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/ReplicationMessageColumnValueResolver.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/ReplicationStream.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/ServerInfo.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/TransactionMessage.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/wal2json/DateTimeFormat.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/wal2json/NonStreamingWal2JsonMessageDecoder.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/wal2json/StreamingWal2JsonMessageDecoder.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/wal2json/Wal2JsonColumnValue.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/connection/wal2json/Wal2JsonReplicationMessage.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/data/Ltree.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/Filters.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/LegacyV1PostgresSourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/Module.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PgOid.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgisGeometry.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresChangeEventSourceFactory.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresChangeRecordEmitter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresConnector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresConnectorConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresConnectorTask.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresErrorHandler.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresEventMetadataProvider.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresOffsetContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresSnapshotChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresSourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresStreamingChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresTaskContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresTopicSelector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresType.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/PostgresValueConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/RecordsProducer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/snapshot/AlwaysSnapshotter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/snapshot/ExportedSnapshotter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/snapshot/InitialOnlySnapshotter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/snapshot/InitialSnapshotter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/snapshot/NeverSnapshotter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/snapshot/QueryingSnapshotter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/snapshot/SnapshotterWrapper.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/SourceInfo.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/spi/OffsetState.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/spi/SlotCreationResult.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/spi/SlotState.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/spi/Snapshotter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/TypeRegistry.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/main/java/io/debezium/connector/postgresql/UnchangedToastedReplicationMessageColumn.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/generated-sources/io/debezium/connector/postgresql/proto/PgProto.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/AbstractRecordsProducerTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/connection/PostgresConnectionIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/connection/ReplicationConnectionIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/connection/wal2json/ISODateTimeFormatTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/CustomTestSnapshot.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/CustomTypeEncodingTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/DecoderDifferences.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/junit/SkipTestDependingOnDatabaseVersionRule.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/junit/SkipTestDependingOnDecoderPluginNameRule.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/junit/SkipWhenDatabaseVersionLessThan.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/junit/SkipWhenDecoderPluginNameIs.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/junit/SkipWhenDecoderPluginNameIsNot.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/LegacyV1SourceInfoTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/OutboxEventRouterIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/PostgresConnectorIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/PostgresConnectorTaskIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/PostgresMetricsIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/PostgresSchemaIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/PublicGeometryIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/RecordsSnapshotProducerIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/RecordsStreamProducerIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/SnapshotWithOverridesProducerIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/SourceInfoTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/TablesWithoutPrimaryKeyIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/TestHelper.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-postgres/src/test/java/io/debezium/connector/postgresql/TransactionMetadataIT.java">
+</file>
+</checkstyle>

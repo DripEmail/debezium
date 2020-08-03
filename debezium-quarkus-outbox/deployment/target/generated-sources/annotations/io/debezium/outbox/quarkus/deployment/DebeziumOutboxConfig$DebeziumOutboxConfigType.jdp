@@ -1,0 +1,5 @@
+#
+#Mon Aug 03 12:05:28 CDT 2020
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.DebeziumOutboxConfigType.converter=The column's attribute converter fully qualified class name.\n@see javax.persistence.AttributeConverter
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.DebeziumOutboxConfigType.name=The column name.
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.DebeziumOutboxConfigType.columnDefinition=The column definition.

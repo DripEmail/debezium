@@ -1,0 +1,21 @@
+#Mon Aug 03 12:05:35 CDT 2020
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/DatabaseDeployer.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/mysql/MySqlConnectorIT.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/PostgreSqlDeployer.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/postgresql/PostgreSqlConnectorIT.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/KafkaDeployer.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/KafkaConnectController.java=1596472916000
+module-resource*?\:/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/target/checkstyle-suppressions.xml=A0A40AB0F08E5A4AA8E4234BF2AC8FA8FCD36EC1
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/DatabaseController.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/ConnectorConfigBuilder.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/OperatorController.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/resources/ConfigProperties.java=1596472916000
+configuration*?=1243716F8457BB81142870628AA2ECE58DDB6CE4
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/KafkaController.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/resources/ConnectorFactories.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/OpenShiftUtils.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/ConnectorTestBase.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/TestUtils.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/MySqlDeployer.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/YAML.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/HttpUtils.java=1596472916000

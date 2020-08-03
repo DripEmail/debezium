@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/CollectionId.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/ConnectionContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/FieldSelector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/Filters.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/LegacyV1MongoDbSourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/Module.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoClients.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbChangeEventSourceFactory.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbChangeRecordEmitter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbCollectionSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbConnector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbConnectorConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbConnectorTask.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbEventMetadataProvider.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbOffsetContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbSnapshotChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbSourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbStreamingChangeEventSource.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbTaskContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoDbTopicSelector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/MongoUtil.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/ReplicaSet.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/ReplicaSetDiscovery.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/ReplicaSetMonitorThread.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/ReplicaSetOffsetContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/ReplicaSets.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/SourceInfo.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/transforms/ExtractNewDocumentState.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/transforms/MongoDataConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/main/java/io/debezium/connector/mongodb/transforms/UnwrapFromMongoDbEnvelope.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/AbstractMongoConnectorIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/AbstractMongoIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/CollectionIdTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/Configurator.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/ConnectionIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/FieldBlacklistIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/FieldRenamesIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/FiltersTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/LegacyV1SourceInfoTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/ModuleTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/MongoClientsIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/MongoDbConnectorIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/MongoDbConnectorTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/MongoDbSchemaIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/MongoMetricsIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/MongoUtilTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/ReplicaSetsTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/SourceInfoTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/TestHelper.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/TopicSelectorTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/TransactionMetadataIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/transforms/AbstractExtractNewDocumentStateTestIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/transforms/ExtractNewDocumentStateTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/transforms/ExtractNewDocumentStateTestIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/transforms/MongoArrayConverterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/transforms/MongoDataConverterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/transforms/ToAvroMongoDataConverterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/transforms/UpdateOperators/AbstractExtractNewDocumentStateUpdateOperatorsTestIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/transforms/UpdateOperators/ExtractNewDocumentStateArrayOperatorTestIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/transforms/UpdateOperators/ExtractNewDocumentStateUpdateBitOperatorTestIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mongodb/src/test/java/io/debezium/connector/mongodb/transforms/UpdateOperators/ExtractNewDocumentStateUpdateFieldOperatorTestIT.java">
+</file>
+</checkstyle>

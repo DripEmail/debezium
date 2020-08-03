@@ -1,0 +1,5 @@
+io/debezium/checkstyle/ExcludeTestPackages.class
+io/debezium/checkstyle/IllegalImport.class
+io/debezium/checkstyle/JavaDocUtil.class
+io/debezium/checkstyle/UnusedImports.class
+io/debezium/checkstyle/Header.class

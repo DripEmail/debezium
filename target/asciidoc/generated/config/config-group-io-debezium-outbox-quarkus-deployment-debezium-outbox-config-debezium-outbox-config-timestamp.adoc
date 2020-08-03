@@ -1,0 +1,37 @@
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-timestamp_configuration]]link:#config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-timestamp_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-timestamp_quarkus.debezium-outbox.timestamp.name]]`link:#config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-timestamp_quarkus.debezium-outbox.timestamp.name[quarkus.debezium-outbox.timestamp.name]`
+
+[.description]
+--
+The column name.
+--|string 
+|`timestamp`
+
+
+a|icon:lock[title=Fixed at build time] [[config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-timestamp_quarkus.debezium-outbox.timestamp.column-definition]]`link:#config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-timestamp_quarkus.debezium-outbox.timestamp.column-definition[quarkus.debezium-outbox.timestamp.column-definition]`
+
+[.description]
+--
+The column definition.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-timestamp_quarkus.debezium-outbox.timestamp.converter]]`link:#config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-timestamp_quarkus.debezium-outbox.timestamp.converter[quarkus.debezium-outbox.timestamp.converter]`
+
+[.description]
+--
+The column's attribute converter fully qualified class name.
+--|string 
+|
+
+|===

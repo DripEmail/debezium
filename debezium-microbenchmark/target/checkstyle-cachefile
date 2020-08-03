@@ -1,0 +1,4 @@
+#Mon Aug 03 12:05:25 CDT 2020
+module-resource*?\:/Users/stephenwebber/code/drip/debezium/debezium-microbenchmark/target/checkstyle-suppressions.xml=A0A40AB0F08E5A4AA8E4234BF2AC8FA8FCD36EC1
+/Users/stephenwebber/code/drip/debezium/debezium-microbenchmark/src/main/java/io/debezium/performance/connector/mysql/parser/MySqlDdlParserPerf.java=1596472916000
+configuration*?=CBCFA8FC5588F53CDC761381F57AE34ECCCA4B72

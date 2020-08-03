@@ -1,0 +1,16 @@
+#Mon Aug 03 12:04:58 CDT 2020
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/ConnectorOutputTest.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/StopConnectorException.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/connector/simple/SimpleSourceConnector.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/MismatchRecordException.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/EmbeddedEngineTest.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/spi/OffsetCommitPolicy.java=1596472916000
+module-resource*?\:/Users/stephenwebber/code/drip/debezium/debezium-embedded/target/checkstyle-suppressions.xml=A0A40AB0F08E5A4AA8E4234BF2AC8FA8FCD36EC1
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/connector/simple/SimpleSourceConnectorOutputTest.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/Connect.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/AvailableVariables.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/AbstractConnectorTest.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/EmbeddedEngine.java=1596472916000
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/OffsetCommitPolicyTest.java=1596472916000
+configuration*?=C4AB613F17BFD04CC95B4FD242E0E85E24D77C4A
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/package-info.java=1596472916000

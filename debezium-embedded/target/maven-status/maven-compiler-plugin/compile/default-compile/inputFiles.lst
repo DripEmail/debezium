@@ -1,0 +1,6 @@
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/package-info.java
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/connector/simple/SimpleSourceConnector.java
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/spi/OffsetCommitPolicy.java
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/StopConnectorException.java
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/Connect.java
+/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/EmbeddedEngine.java

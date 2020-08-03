@@ -1,0 +1,172 @@
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_configuration]]link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.table-name]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.table-name[quarkus.debezium-outbox.table-name]`
+
+[.description]
+--
+The table name to be used for the outbox table
+--|string 
+|`OutboxEvent`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.id.name]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.id.name[quarkus.debezium-outbox.id.name]`
+
+[.description]
+--
+The column name.
+--|string 
+|`id`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.id.column-definition]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.id.column-definition[quarkus.debezium-outbox.id.column-definition]`
+
+[.description]
+--
+The column definition.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-id.name]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-id.name[quarkus.debezium-outbox.aggregate-id.name]`
+
+[.description]
+--
+The column name.
+--|string 
+|`aggregateid`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-id.column-definition]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-id.column-definition[quarkus.debezium-outbox.aggregate-id.column-definition]`
+
+[.description]
+--
+The column definition.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-id.converter]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-id.converter[quarkus.debezium-outbox.aggregate-id.converter]`
+
+[.description]
+--
+The column's attribute converter fully qualified class name.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-type.name]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-type.name[quarkus.debezium-outbox.aggregate-type.name]`
+
+[.description]
+--
+The column name.
+--|string 
+|`aggregatetype`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-type.column-definition]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-type.column-definition[quarkus.debezium-outbox.aggregate-type.column-definition]`
+
+[.description]
+--
+The column definition.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-type.converter]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.aggregate-type.converter[quarkus.debezium-outbox.aggregate-type.converter]`
+
+[.description]
+--
+The column's attribute converter fully qualified class name.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.type.name]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.type.name[quarkus.debezium-outbox.type.name]`
+
+[.description]
+--
+The column name.
+--|string 
+|`type`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.type.column-definition]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.type.column-definition[quarkus.debezium-outbox.type.column-definition]`
+
+[.description]
+--
+The column definition.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.type.converter]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.type.converter[quarkus.debezium-outbox.type.converter]`
+
+[.description]
+--
+The column's attribute converter fully qualified class name.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.timestamp.name]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.timestamp.name[quarkus.debezium-outbox.timestamp.name]`
+
+[.description]
+--
+The column name.
+--|string 
+|`timestamp`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.timestamp.column-definition]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.timestamp.column-definition[quarkus.debezium-outbox.timestamp.column-definition]`
+
+[.description]
+--
+The column definition.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.timestamp.converter]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.timestamp.converter[quarkus.debezium-outbox.timestamp.converter]`
+
+[.description]
+--
+The column's attribute converter fully qualified class name.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.payload.name]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.payload.name[quarkus.debezium-outbox.payload.name]`
+
+[.description]
+--
+The column name.
+--|string 
+|`payload`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.payload.column-definition]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.payload.column-definition[quarkus.debezium-outbox.payload.column-definition]`
+
+[.description]
+--
+The column definition.
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.payload.converter]]`link:#quarkus-debezium-outbox-io-debezium-outbox-quarkus-deployment-debezium-outbox-config_quarkus.debezium-outbox.payload.converter[quarkus.debezium-outbox.payload.converter]`
+
+[.description]
+--
+The column's attribute converter fully qualified class name.
+--|string 
+|
+
+|===

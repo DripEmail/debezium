@@ -1,0 +1,28 @@
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-id_configuration]]link:#config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-id_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-id_quarkus.debezium-outbox.id.name]]`link:#config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-id_quarkus.debezium-outbox.id.name[quarkus.debezium-outbox.id.name]`
+
+[.description]
+--
+The column name.
+--|string 
+|`id`
+
+
+a|icon:lock[title=Fixed at build time] [[config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-id_quarkus.debezium-outbox.id.column-definition]]`link:#config-group-io-debezium-outbox-quarkus-deployment-debezium-outbox-config-debezium-outbox-config-id_quarkus.debezium-outbox.id.column-definition[quarkus.debezium-outbox.id.column-definition]`
+
+[.description]
+--
+The column definition.
+--|string 
+|
+
+|===

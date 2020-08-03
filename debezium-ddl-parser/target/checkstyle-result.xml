@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/AntlrDdlParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/AntlrDdlParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/CaseChangingCharStream.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/DataTypeResolver.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/ParsingErrorListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/ProxyParseTreeListenerUtil.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlLexer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlParserBaseListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlLexer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlParserBaseListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlParserListener.java">
+</file>
+</checkstyle>

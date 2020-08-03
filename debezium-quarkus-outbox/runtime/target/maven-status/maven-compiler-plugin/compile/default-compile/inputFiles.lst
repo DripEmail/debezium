@@ -1,0 +1,7 @@
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/DebeziumOutboxRuntimeConfig.java
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/JsonNodeAttributeConverter.java
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/AdditionalJaxbMappingProducerImpl.java
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/DebeziumOutboxRecorder.java
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/ExportedEvent.java
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/EventDispatcher.java
+/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/OutboxConstants.java

@@ -1,0 +1,12 @@
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/DatabaseDeployer.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/YAML.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/HttpUtils.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/ConnectorConfigBuilder.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/KafkaDeployer.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/DatabaseController.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/MySqlDeployer.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/KafkaConnectController.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/KafkaController.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/OpenShiftUtils.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/databases/PostgreSqlDeployer.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/main/java/io/debezium/testing/openshift/tools/kafka/OperatorController.java

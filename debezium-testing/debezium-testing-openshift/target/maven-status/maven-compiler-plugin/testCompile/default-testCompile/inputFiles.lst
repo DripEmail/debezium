@@ -1,0 +1,6 @@
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/ConnectorTestBase.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/resources/ConfigProperties.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/mysql/MySqlConnectorIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/postgresql/PostgreSqlConnectorIT.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/TestUtils.java
+/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-openshift/src/test/java/io/debezium/testing/openshift/resources/ConnectorFactories.java

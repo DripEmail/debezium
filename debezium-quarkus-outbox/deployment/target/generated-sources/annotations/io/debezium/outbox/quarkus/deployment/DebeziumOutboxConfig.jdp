@@ -1,0 +1,9 @@
+#
+#Mon Aug 03 12:05:28 CDT 2020
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.payload=Outbox payload configurable attributes
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.type=Outbox type configurable attributes
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.aggregateType=Outbox aggregate-type configurable attributes
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.timestamp=Outbox timestamp configurable attributes
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.id=Outbox identifier configurable attributes
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.aggregateId=Outbox aggregate-id configurable attributes
+io.debezium.outbox.quarkus.deployment.DebeziumOutboxConfig.tableName=The table name to be used for the outbox table

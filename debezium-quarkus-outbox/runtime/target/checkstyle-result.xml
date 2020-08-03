@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/ExportedEvent.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/AdditionalJaxbMappingProducerImpl.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/DebeziumOutboxRecorder.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/DebeziumOutboxRuntimeConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/EventDispatcher.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/JsonNodeAttributeConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/src/main/java/io/debezium/outbox/quarkus/internal/OutboxConstants.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/target/generated-sources/annotations/io/debezium/outbox/quarkus/internal/DebeziumOutboxRecorder$$accessor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/runtime/target/generated-sources/annotations/io/debezium/outbox/quarkus/internal/DebeziumOutboxRuntimeConfig$$accessor.java">
+</file>
+</checkstyle>

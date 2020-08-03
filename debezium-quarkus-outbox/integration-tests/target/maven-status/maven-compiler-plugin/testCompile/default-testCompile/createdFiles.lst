@@ -1,0 +1,3 @@
+io/debezium/outbox/quarkus/it/DatabaseTestResource.class
+io/debezium/outbox/quarkus/it/OutboxIT.class
+io/debezium/outbox/quarkus/it/OutboxTest.class

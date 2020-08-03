@@ -1,0 +1,1 @@
+JMH S 65 io.debezium.performance.connector.mysql.parser.MySqlDdlParserPerf S 89 io.debezium.performance.connector.mysql.parser.generated.MySqlDdlParserPerf_antlr_jmhTest S 5 antlr S 11 AverageTime E A 1 1 1 E I 2 10 T 3 1 s E I 1 3 T 3 2 s E I 1 1 E E E E E M 1 11 columnCount 6 1 1 1 2 1 5 2 10 2 20 2 50 U 12 MICROSECONDS E E 

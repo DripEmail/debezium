@@ -1,0 +1,4 @@
+io/debezium/testing/testcontainers/ConnectorResolver.class
+io/debezium/testing/testcontainers/DebeziumContainer.class
+io/debezium/testing/testcontainers/Connector.class
+io/debezium/testing/testcontainers/ConnectorConfiguration.class

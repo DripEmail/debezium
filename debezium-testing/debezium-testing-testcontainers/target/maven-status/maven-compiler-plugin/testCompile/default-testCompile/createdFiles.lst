@@ -1,0 +1,2 @@
+io/debezium/testing/testcontainers/DebeziumContainerTest.class
+io/debezium/testing/testcontainers/ConnectorConfigurationTest.class

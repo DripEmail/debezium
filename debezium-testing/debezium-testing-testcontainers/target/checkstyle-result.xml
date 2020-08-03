@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/main/java/io/debezium/testing/testcontainers/Connector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/main/java/io/debezium/testing/testcontainers/ConnectorConfiguration.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/main/java/io/debezium/testing/testcontainers/ConnectorResolver.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/main/java/io/debezium/testing/testcontainers/DebeziumContainer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/test/java/io/debezium/testing/testcontainers/ConnectorConfigurationTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-testing/debezium-testing-testcontainers/src/test/java/io/debezium/testing/testcontainers/DebeziumContainerTest.java">
+</file>
+</checkstyle>

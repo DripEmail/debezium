@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/connector/simple/SimpleSourceConnector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/Connect.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/EmbeddedEngine.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/package-info.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/spi/OffsetCommitPolicy.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/main/java/io/debezium/embedded/StopConnectorException.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/connector/simple/SimpleSourceConnectorOutputTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/AbstractConnectorTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/AvailableVariables.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/ConnectorOutputTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/EmbeddedEngineTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/MismatchRecordException.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-embedded/src/test/java/io/debezium/embedded/OffsetCommitPolicyTest.java">
+</file>
+</checkstyle>

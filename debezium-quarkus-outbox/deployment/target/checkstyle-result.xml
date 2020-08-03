@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/src/main/java/io/debezium/outbox/quarkus/deployment/DebeziumOutboxConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/src/main/java/io/debezium/outbox/quarkus/deployment/OutboxEventEntityBuildItem.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/src/main/java/io/debezium/outbox/quarkus/deployment/OutboxEventHbmWriter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/src/main/java/io/debezium/outbox/quarkus/deployment/OutboxProcessor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/target/generated-sources/annotations/io/debezium/outbox/quarkus/deployment/DebeziumOutboxConfig$$accessor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/target/generated-sources/annotations/io/debezium/outbox/quarkus/deployment/DebeziumOutboxConfig$DebeziumOutboxConfigAggregateId$$accessor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/target/generated-sources/annotations/io/debezium/outbox/quarkus/deployment/DebeziumOutboxConfig$DebeziumOutboxConfigAggregateType$$accessor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/target/generated-sources/annotations/io/debezium/outbox/quarkus/deployment/DebeziumOutboxConfig$DebeziumOutboxConfigId$$accessor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/target/generated-sources/annotations/io/debezium/outbox/quarkus/deployment/DebeziumOutboxConfig$DebeziumOutboxConfigPayload$$accessor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/target/generated-sources/annotations/io/debezium/outbox/quarkus/deployment/DebeziumOutboxConfig$DebeziumOutboxConfigTimestamp$$accessor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/target/generated-sources/annotations/io/debezium/outbox/quarkus/deployment/DebeziumOutboxConfig$DebeziumOutboxConfigType$$accessor.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-quarkus-outbox/deployment/target/generated-sources/annotations/io/debezium/outbox/quarkus/deployment/OutboxProcessor$$accessor.java">
+</file>
+</checkstyle>

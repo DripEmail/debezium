@@ -1,0 +1,12 @@
+io/debezium/testing/openshift/tools/YAML.class
+io/debezium/testing/openshift/tools/databases/DatabaseDeployer.class
+io/debezium/testing/openshift/tools/kafka/KafkaConnectController.class
+io/debezium/testing/openshift/tools/kafka/ConnectorConfigBuilder.class
+io/debezium/testing/openshift/tools/OpenShiftUtils.class
+io/debezium/testing/openshift/tools/databases/DatabaseController.class
+io/debezium/testing/openshift/tools/databases/PostgreSqlDeployer.class
+io/debezium/testing/openshift/tools/kafka/KafkaController.class
+io/debezium/testing/openshift/tools/kafka/OperatorController.class
+io/debezium/testing/openshift/tools/databases/MySqlDeployer.class
+io/debezium/testing/openshift/tools/kafka/KafkaDeployer.class
+io/debezium/testing/openshift/tools/HttpUtils.class

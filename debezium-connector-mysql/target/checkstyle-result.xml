@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/AbstractReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/AlterTableParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/AlterViewParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/ColumnDefinitionParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/CreateAndAlterDatabaseParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/CreateTableParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/CreateUniqueIndexParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/CreateViewParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/DropDatabaseParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/DropTableParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/DropViewParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/MySqlAntlrDdlParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/RenameTableParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/SetStatementParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/TruncateTableParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/UseStatementParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/listener/ViewSelectedColumnsParserListener.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/antlr/MySqlAntlrDdlParser.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/BinlogReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/BinlogReaderMetrics.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/BinlogReaderMetricsMXBean.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/BlockingReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/ChainedReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/converters/TinyIntOneToBooleanConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/EventBuffer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/EventDataDeserializationExceptionData.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/Filters.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/GtidSet.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/HaltingPredicate.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/LegacyV1MySqlSourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/Module.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlConnector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlConnectorConfig.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlConnectorTask.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlDefaultValueConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlGeometry.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlJdbcContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlSchema.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlSourceInfoStructMaker.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlSystemVariables.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlTaskContext.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlTopicSelector.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlUnsignedIntegerConverter.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/MySqlValueConverters.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/ParallelSnapshotReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/Reader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/ReaderMetricsMXBean.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/ReconcilingBinlogReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/RecordMakers.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/RowDeserializers.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/SnapshotReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/SnapshotReaderMetrics.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/SnapshotReaderMetricsMXBean.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/SourceInfo.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/StopEventData.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/StopEventDataDeserializer.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/main/java/io/debezium/connector/mysql/TimedBlockingReader.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/AbstractMySqlConnectorOutputTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/BinlogReaderBufferIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/BinlogReaderIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/ChainedReaderTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/Configurator.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/ConnectionIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/DatabaseDifferences.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/FiltersTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/GtidSetTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/LegacyV1SourceInfoTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MetadataIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MultiTableStatementIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlAntlrDdlParserTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySQLConnection.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlConnectorIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlConnectorJsonIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlConnectorRegressionIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlConnectorTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlDateTimeInKeyIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlDecimalColumnIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MysqlDefaultValueAllZeroTimeIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MysqlDefaultValueIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlDefaultValueTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlEnumColumnIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlFixedLengthBinaryColumnIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlGeometryIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlGeometryTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlMetricsIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlNumericColumnIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlRestartIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlSchemaMigrationIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlSchemaTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlSourceTypeInSchemaIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlTableMaintenanceStatementsIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlTaskContextIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlTaskContextTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlTimestampColumnIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlTinyIntIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlUnsignedIntegerConverterTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlUnsignedIntegerIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlValueConvertersTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/MySqlYearIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/ParallelSnapshotReaderTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/ReadBinLogIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/ReconcilingBinlogReaderTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/SnapshotReaderIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/SourceInfoTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/TableConvertersTest.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/TopicNameSanitizationIT.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/UniqueDatabase.java">
+</file>
+<file name="/Users/stephenwebber/code/drip/debezium/debezium-connector-mysql/src/test/java/io/debezium/connector/mysql/ZZZGtidSetIT.java">
+</file>
+</checkstyle>

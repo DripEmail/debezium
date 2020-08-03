@@ -1,0 +1,9 @@
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/StopEngineException.java
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/spi/converter/CustomConverter.java
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/common/annotation/Incubating.java
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/ChangeEventFormat.java
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/DebeziumEngine.java
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/spi/converter/RelationalColumn.java
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/spi/converter/ConvertedField.java
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/DebeziumException.java
+/Users/stephenwebber/code/drip/debezium/debezium-api/src/main/java/io/debezium/engine/spi/OffsetCommitPolicy.java

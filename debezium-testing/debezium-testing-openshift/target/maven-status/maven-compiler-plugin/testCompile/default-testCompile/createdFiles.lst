@@ -1,0 +1,6 @@
+io/debezium/testing/openshift/resources/ConnectorFactories.class
+io/debezium/testing/openshift/postgresql/PostgreSqlConnectorIT.class
+io/debezium/testing/openshift/mysql/MySqlConnectorIT.class
+io/debezium/testing/openshift/ConnectorTestBase.class
+io/debezium/testing/openshift/TestUtils.class
+io/debezium/testing/openshift/resources/ConfigProperties.class

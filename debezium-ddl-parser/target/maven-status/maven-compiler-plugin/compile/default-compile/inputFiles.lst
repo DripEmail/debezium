@@ -1,0 +1,14 @@
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlParserListener.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlLexer.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/AntlrDdlParserListener.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlParser.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlLexer.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/ParsingErrorListener.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/DataTypeResolver.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlParserBaseListener.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlParserBaseListener.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/oracle/generated/PlSqlParserListener.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/ProxyParseTreeListenerUtil.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/CaseChangingCharStream.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/src/main/java/io/debezium/antlr/AntlrDdlParser.java
+/Users/stephenwebber/code/drip/debezium/debezium-ddl-parser/target/generated-sources/antlr4/io/debezium/ddl/parser/mysql/generated/MySqlParser.java
