@@ -389,21 +389,15 @@ public class PostgresReplicationConnection extends JdbcConnection implements Rep
             @Override
             public void read(ReplicationMessageProcessor processor) throws SQLException, InterruptedException {
                 ByteBuffer read = stream.read();
-                final long lastReceiveLsn = stream.getLastReceiveLSN().asLong();
-                LOGGER.trace("Streaming requested from LSN {}, received LSN {}", startingLsn, lastReceiveLsn);
-                if (messageDecoder.shouldMessageBeSkipped(read, lastReceiveLsn, startingLsn, skipFirstFlushRecord)) {
-                    return;
-                }
+
                 deserializeMessages(read, processor);
             }
 
             @Override
             public boolean readPending(ReplicationMessageProcessor processor) throws SQLException, InterruptedException {
                 ByteBuffer read = stream.readPending();
-                final long lastReceiveLsn = stream.getLastReceiveLSN().asLong();
-                LOGGER.trace("Streaming requested from LSN {}, received LSN {}", startingLsn, lastReceiveLsn);
 
-                if (read == null || messageDecoder.shouldMessageBeSkipped(read, lastReceiveLsn, startingLsn, skipFirstFlushRecord)) {
+                if (read == null) {
                     return false;
                 }
 
